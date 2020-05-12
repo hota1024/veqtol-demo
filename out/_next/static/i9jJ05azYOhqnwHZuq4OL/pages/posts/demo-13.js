@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[13],{JL7y:function(n,o,w){(window.__NEXT_P=window.__NEXT_P||[]).push(["/posts/demo-13",function(){return w("ATPx")}])}},[["JL7y",0,2,1,3]]]);

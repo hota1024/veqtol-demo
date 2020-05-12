@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[10],{"k+aP":function(n,o,w){(window.__NEXT_P=window.__NEXT_P||[]).push(["/posts/demo-10",function(){return w("tO2U")}])}},[["k+aP",0,2,1,3]]]);
