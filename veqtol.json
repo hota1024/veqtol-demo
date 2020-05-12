@@ -1,5 +1,17 @@
 {
   "title": "Demo",
   "description": "Veqtol demo site",
-  "siteUrl": "http://veqtol-demo.now.sh"
+  "siteUrl": "http://veqtol-demo.now.sh",
+  "copyright": "Your copyright here",
+  "footerLinks": [
+    {
+      "text": "Home",
+      "href": "/"
+    },
+    {
+      "text": "Github",
+      "href": "https://github.com/hota1024/veqtol-demo",
+      "newTab": true
+    }
+  ]
 }
