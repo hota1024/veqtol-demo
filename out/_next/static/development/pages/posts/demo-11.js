@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/posts/hello-world.js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/posts/demo-11.js"],{
 
 /***/ "./node_modules/@babel/runtime/helpers/arrayWithHoles.js":
 /*!***************************************************************!*\
@@ -4521,23 +4521,23 @@ var assign=Object.assign.bind(Object);function g(){return assign;}Object.defineP
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fposts%2Fhello-world&absolutePagePath=%2FUsers%2Fhotaka%2FDesktop%2FGithub%2Fhota1024%2Fveqtol-demo%2Fsrc%2Fpages%2Fposts%2Fhello-world.mdx&hotRouterUpdates=true!./":
-/*!***********************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fposts%2Fhello-world&absolutePagePath=%2FUsers%2Fhotaka%2FDesktop%2FGithub%2Fhota1024%2Fveqtol-demo%2Fsrc%2Fpages%2Fposts%2Fhello-world.mdx&hotRouterUpdates=true ***!
-  \***********************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fposts%2Fdemo-11&absolutePagePath=%2FUsers%2Fhotaka%2FDesktop%2FGithub%2Fhota1024%2Fveqtol-demo%2Fsrc%2Fpages%2Fposts%2Fdemo-11.mdx&hotRouterUpdates=true!./":
+/*!***************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fposts%2Fdemo-11&absolutePagePath=%2FUsers%2Fhotaka%2FDesktop%2FGithub%2Fhota1024%2Fveqtol-demo%2Fsrc%2Fpages%2Fposts%2Fdemo-11.mdx&hotRouterUpdates=true ***!
+  \***************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
     (window.__NEXT_P = window.__NEXT_P || []).push([
-      "/posts/hello-world",
+      "/posts/demo-11",
       function () {
-        var mod = __webpack_require__(/*! ./src/pages/posts/hello-world.mdx */ "./src/pages/posts/hello-world.mdx");
+        var mod = __webpack_require__(/*! ./src/pages/posts/demo-11.mdx */ "./src/pages/posts/demo-11.mdx");
         if (true) {
-          module.hot.accept(/*! ./src/pages/posts/hello-world.mdx */ "./src/pages/posts/hello-world.mdx", function () {
-            if (!next.router.components["/posts/hello-world"]) return;
-            var updatedPage = __webpack_require__(/*! ./src/pages/posts/hello-world.mdx */ "./src/pages/posts/hello-world.mdx");
-            next.router.update("/posts/hello-world", updatedPage);
+          module.hot.accept(/*! ./src/pages/posts/demo-11.mdx */ "./src/pages/posts/demo-11.mdx", function () {
+            if (!next.router.components["/posts/demo-11"]) return;
+            var updatedPage = __webpack_require__(/*! ./src/pages/posts/demo-11.mdx */ "./src/pages/posts/demo-11.mdx");
+            next.router.update("/posts/demo-11", updatedPage);
           });
         }
         return mod;
@@ -14672,7 +14672,7 @@ var Footer = function Footer() {
     }, item.newTab ? {
       target: '__blank'
     } : {}, {
-      className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_1___default.a.dynamic([["34950289", [Object(_utils__WEBPACK_IMPORTED_MODULE_5__["Get"])('footerNavColor'), Object(_utils__WEBPACK_IMPORTED_MODULE_5__["Get"])('footerNavLinkText'), Object(_utils__WEBPACK_IMPORTED_MODULE_5__["Get"])('footerNavLinkHoverText'), Object(_utils__WEBPACK_IMPORTED_MODULE_5__["Get"])('copyrightColor'), Object(_utils__WEBPACK_IMPORTED_MODULE_5__["Get"])('copyrightText')]]]),
+      className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_1___default.a.dynamic([["34950289", [Object(_utils__WEBPACK_IMPORTED_MODULE_5__["Get"])('footerNavColor'), Object(_utils__WEBPACK_IMPORTED_MODULE_5__["Get"])('footerNavLinkText'), Object(_utils__WEBPACK_IMPORTED_MODULE_5__["Get"])('footerNavLinkHoverText'), Object(_utils__WEBPACK_IMPORTED_MODULE_5__["Get"])('copyrightColor'), Object(_utils__WEBPACK_IMPORTED_MODULE_5__["Get"])('copyrightText')]]]) + " " + "footer-nav-link",
       __self: _this,
       __source: {
         fileName: _jsxFileName,
@@ -14685,7 +14685,7 @@ var Footer = function Footer() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33,
+      lineNumber: 34,
       columnNumber: 11
     }
   }, Object(_utils__WEBPACK_IMPORTED_MODULE_5__["FormatGet"])('copyright')), !Object(_utils__WEBPACK_IMPORTED_MODULE_5__["Get"])('hideVeqtolCredit') && __jsx("div", {
@@ -14693,7 +14693,7 @@ var Footer = function Footer() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36,
+      lineNumber: 37,
       columnNumber: 11
     }
   }, "Powered by", ' ', __jsx("a", {
@@ -14703,14 +14703,14 @@ var Footer = function Footer() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38,
+      lineNumber: 39,
       columnNumber: 13
     }
   }, "\uD83D\uDD3AVeqtol"))), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_1___default.a, {
     id: "34950289",
     dynamic: [Object(_utils__WEBPACK_IMPORTED_MODULE_5__["Get"])('footerNavColor'), Object(_utils__WEBPACK_IMPORTED_MODULE_5__["Get"])('footerNavLinkText'), Object(_utils__WEBPACK_IMPORTED_MODULE_5__["Get"])('footerNavLinkHoverText'), Object(_utils__WEBPACK_IMPORTED_MODULE_5__["Get"])('copyrightColor'), Object(_utils__WEBPACK_IMPORTED_MODULE_5__["Get"])('copyrightText')],
     __self: _this
-  }, ".footer-tags.__jsx-style-dynamic-selector{padding:32px 0;text-align:center;}.footer-tags-title.__jsx-style-dynamic-selector{font-size:2rem;margin:0;margin-bottom:32px;}.footer-nav.__jsx-style-dynamic-selector{padding:32px 0;background:".concat(Object(_utils__WEBPACK_IMPORTED_MODULE_5__["Get"])('footerNavColor'), ";text-align:center;}.footer-nav-link.__jsx-style-dynamic-selector{color:").concat(Object(_utils__WEBPACK_IMPORTED_MODULE_5__["Get"])('footerNavLinkText'), ";margin:0 14px;-webkit-text-decoration:none;text-decoration:none;}.footer-nav-link.__jsx-style-dynamic-selector:hover{color:").concat(Object(_utils__WEBPACK_IMPORTED_MODULE_5__["Get"])('footerNavLinkHoverText'), ";}.footer-copyright.__jsx-style-dynamic-selector{background:").concat(Object(_utils__WEBPACK_IMPORTED_MODULE_5__["Get"])('copyrightColor'), ";color:").concat(Object(_utils__WEBPACK_IMPORTED_MODULE_5__["Get"])('copyrightText'), ";text-align:center;padding:24px 0;}.footer-veqtol.__jsx-style-dynamic-selector{padding:24px 0;text-align:center;background:black;color:white;}.footer-veqtol-link.__jsx-style-dynamic-selector{color:#f44336;-webkit-text-decoration:none;text-decoration:none;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9ob3Rha2EvRGVza3RvcC9HaXRodWIvaG90YTEwMjQvdmVxdG9sLWRlbW8vc3JjL2NvbXBvbmVudHMvRm9vdGVyLnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFnRGtCLEFBRzBCLEFBS0EsQUFNQSxBQU1vQixBQU1BLEFBSUssQUFPekIsQUFPRCxjQUNPLENBekNILEFBS1QsQUFNK0IsQUF1QnRCLFNBNUJDLFNBTHJCLEFBa0NtQixFQWxCSCxBQU1oQixLQUlxQyxHQXBCckMsTUFXdUIsQ0FrQlQsS0F4Qk0sT0F5QnBCLEVBS0EsU0E3QkEsRUFlb0Isa0JBQ0gsTUFWakIsU0FXQSIsImZpbGUiOiIvVXNlcnMvaG90YWthL0Rlc2t0b3AvR2l0aHViL2hvdGExMDI0L3ZlcXRvbC1kZW1vL3NyYy9jb21wb25lbnRzL0Zvb3Rlci50c3giLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyB1c2VDb250ZXh0IH0gZnJvbSAncmVhY3QnXG5pbXBvcnQgeyBDb21tb25Db250ZXh0IH0gZnJvbSAnQC9wYWdlcy9fYXBwJ1xuaW1wb3J0IHsgVGFncyB9IGZyb20gJy4vVGFncydcbmltcG9ydCB7IEdldCwgRm9ybWF0R2V0IH0gZnJvbSAnQC91dGlscydcbmltcG9ydCBMaW5rIGZyb20gJ25leHQvbGluaydcblxuZXhwb3J0IGNvbnN0IEZvb3RlciA9ICgpID0+IHtcbiAgY29uc3QgeyB0YWdOYW1lcyB9ID0gdXNlQ29udGV4dChDb21tb25Db250ZXh0KVxuICBjb25zdCBuYXZJdGVtcyA9IEdldCgnZm9vdGVyTGlua3MnKVxuXG4gIHJldHVybiAoXG4gICAgPD5cbiAgICAgIDxmb290ZXIgY2xhc3NOYW1lPVwiZm9vdGVyXCI+XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiZm9vdGVyLXRhZ3NcIj5cbiAgICAgICAgICA8aDQgY2xhc3NOYW1lPVwiZm9vdGVyLXRhZ3MtdGl0bGVcIj5UYWdzPC9oND5cbiAgICAgICAgICA8VGFncyB0YWdzPXt0YWdOYW1lc30gLz5cbiAgICAgICAgPC9kaXY+XG4gICAgICAgIHtuYXZJdGVtcy5sZW5ndGggPiAwICYmIChcbiAgICAgICAgICA8bmF2IGNsYXNzTmFtZT1cImZvb3Rlci1uYXZcIj5cbiAgICAgICAgICAgIHtuYXZJdGVtcy5tYXAoKGl0ZW0sIGtleSkgPT4gKFxuICAgICAgICAgICAgICA8TGluayBrZXk9e2tleX0gaHJlZj17aXRlbS5ocmVmfT5cbiAgICAgICAgICAgICAgICA8YVxuICAgICAgICAgICAgICAgICAgaHJlZj17aXRlbS5ocmVmfVxuICAgICAgICAgICAgICAgICAgey4uLihpdGVtLm5ld1RhYiA/IHsgdGFyZ2V0OiAnX19ibGFuaycgfSA6IHt9KX1cbiAgICAgICAgICAgICAgICA+XG4gICAgICAgICAgICAgICAgICB7aXRlbS50ZXh0fVxuICAgICAgICAgICAgICAgIDwvYT5cbiAgICAgICAgICAgICAgPC9MaW5rPlxuICAgICAgICAgICAgKSl9XG4gICAgICAgICAgPC9uYXY+XG4gICAgICAgICl9XG4gICAgICAgIHtHZXQoJ2NvcHlyaWdodCcpICYmIChcbiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImZvb3Rlci1jb3B5cmlnaHRcIj57Rm9ybWF0R2V0KCdjb3B5cmlnaHQnKX08L2Rpdj5cbiAgICAgICAgKX1cbiAgICAgICAgeyFHZXQoJ2hpZGVWZXF0b2xDcmVkaXQnKSAmJiAoXG4gICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJmb290ZXItdmVxdG9sXCI+XG4gICAgICAgICAgICBQb3dlcmVkIGJ5eycgJ31cbiAgICAgICAgICAgIDxhXG4gICAgICAgICAgICAgIGNsYXNzTmFtZT1cImZvb3Rlci12ZXF0b2wtbGlua1wiXG4gICAgICAgICAgICAgIGhyZWY9XCJodHRwczovL2dpdGh1Yi5jb20vaG90YTEwMjQvdmVxdG9sXCJcbiAgICAgICAgICAgICAgdGFyZ2V0PVwiX19ibGFua1wiXG4gICAgICAgICAgICA+XG4gICAgICAgICAgICAgIPCflLpWZXF0b2xcbiAgICAgICAgICAgIDwvYT5cbiAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgKX1cbiAgICAgIDwvZm9vdGVyPlxuXG4gICAgICA8c3R5bGUganN4PntgXG4gICAgICAgIC5mb290ZXItdGFncyB7XG4gICAgICAgICAgcGFkZGluZzogMzJweCAwO1xuICAgICAgICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgICAgICAgfVxuXG4gICAgICAgIC5mb290ZXItdGFncy10aXRsZSB7XG4gICAgICAgICAgZm9udC1zaXplOiAycmVtO1xuICAgICAgICAgIG1hcmdpbjogMDtcbiAgICAgICAgICBtYXJnaW4tYm90dG9tOiAzMnB4O1xuICAgICAgICB9XG5cbiAgICAgICAgLmZvb3Rlci1uYXYge1xuICAgICAgICAgIHBhZGRpbmc6IDMycHggMDtcbiAgICAgICAgICBiYWNrZ3JvdW5kOiAke0dldCgnZm9vdGVyTmF2Q29sb3InKX07XG4gICAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyO1xuICAgICAgICB9XG5cbiAgICAgICAgLmZvb3Rlci1uYXYtbGluayB7XG4gICAgICAgICAgY29sb3I6ICR7R2V0KCdmb290ZXJOYXZMaW5rVGV4dCcpfTtcbiAgICAgICAgICBtYXJnaW46IDAgMTRweDtcbiAgICAgICAgICB0ZXh0LWRlY29yYXRpb246IG5vbmU7XG4gICAgICAgIH1cblxuICAgICAgICAuZm9vdGVyLW5hdi1saW5rOmhvdmVyIHtcbiAgICAgICAgICBjb2xvcjogJHtHZXQoJ2Zvb3Rlck5hdkxpbmtIb3ZlclRleHQnKX07XG4gICAgICAgIH1cblxuICAgICAgICAuZm9vdGVyLWNvcHlyaWdodCB7XG4gICAgICAgICAgYmFja2dyb3VuZDogJHtHZXQoJ2NvcHlyaWdodENvbG9yJyl9O1xuICAgICAgICAgIGNvbG9yOiAke0dldCgnY29weXJpZ2h0VGV4dCcpfTtcbiAgICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgICAgICAgcGFkZGluZzogMjRweCAwO1xuICAgICAgICB9XG5cbiAgICAgICAgLmZvb3Rlci12ZXF0b2wge1xuICAgICAgICAgIHBhZGRpbmc6IDI0cHggMDtcbiAgICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgICAgICAgYmFja2dyb3VuZDogYmxhY2s7XG4gICAgICAgICAgY29sb3I6IHdoaXRlO1xuICAgICAgICB9XG5cbiAgICAgICAgLmZvb3Rlci12ZXF0b2wtbGluayB7XG4gICAgICAgICAgY29sb3I6ICNmNDQzMzY7XG4gICAgICAgICAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xuICAgICAgICB9XG4gICAgICBgfTwvc3R5bGU+XG4gICAgPC8+XG4gIClcbn1cbiJdfQ== */\n/*@ sourceURL=/Users/hotaka/Desktop/Github/hota1024/veqtol-demo/src/components/Footer.tsx */")));
+  }, ".footer-tags.__jsx-style-dynamic-selector{padding:32px 0;text-align:center;}.footer-tags-title.__jsx-style-dynamic-selector{font-size:2rem;margin:0;margin-bottom:32px;}.footer-nav.__jsx-style-dynamic-selector{padding:32px 0;background:".concat(Object(_utils__WEBPACK_IMPORTED_MODULE_5__["Get"])('footerNavColor'), ";text-align:center;}.footer-nav-link.__jsx-style-dynamic-selector{color:").concat(Object(_utils__WEBPACK_IMPORTED_MODULE_5__["Get"])('footerNavLinkText'), ";margin:0 14px;-webkit-text-decoration:none;text-decoration:none;}.footer-nav-link.__jsx-style-dynamic-selector:hover{color:").concat(Object(_utils__WEBPACK_IMPORTED_MODULE_5__["Get"])('footerNavLinkHoverText'), ";}.footer-copyright.__jsx-style-dynamic-selector{background:").concat(Object(_utils__WEBPACK_IMPORTED_MODULE_5__["Get"])('copyrightColor'), ";color:").concat(Object(_utils__WEBPACK_IMPORTED_MODULE_5__["Get"])('copyrightText'), ";text-align:center;padding:24px 0;}.footer-veqtol.__jsx-style-dynamic-selector{padding:24px 0;text-align:center;background:black;color:white;}.footer-veqtol-link.__jsx-style-dynamic-selector{color:#f44336;-webkit-text-decoration:none;text-decoration:none;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9ob3Rha2EvRGVza3RvcC9HaXRodWIvaG90YTEwMjQvdmVxdG9sLWRlbW8vc3JjL2NvbXBvbmVudHMvRm9vdGVyLnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFpRGtCLEFBRzBCLEFBS0EsQUFNQSxBQU1vQixBQU1BLEFBSUssQUFPekIsQUFPRCxjQUNPLENBekNILEFBS1QsQUFNK0IsQUF1QnRCLFNBNUJDLFNBTHJCLEFBa0NtQixFQWxCSCxBQU1oQixLQUlxQyxHQXBCckMsTUFXdUIsQ0FrQlQsS0F4Qk0sT0F5QnBCLEVBS0EsU0E3QkEsRUFlb0Isa0JBQ0gsTUFWakIsU0FXQSIsImZpbGUiOiIvVXNlcnMvaG90YWthL0Rlc2t0b3AvR2l0aHViL2hvdGExMDI0L3ZlcXRvbC1kZW1vL3NyYy9jb21wb25lbnRzL0Zvb3Rlci50c3giLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyB1c2VDb250ZXh0IH0gZnJvbSAncmVhY3QnXG5pbXBvcnQgeyBDb21tb25Db250ZXh0IH0gZnJvbSAnQC9wYWdlcy9fYXBwJ1xuaW1wb3J0IHsgVGFncyB9IGZyb20gJy4vVGFncydcbmltcG9ydCB7IEdldCwgRm9ybWF0R2V0IH0gZnJvbSAnQC91dGlscydcbmltcG9ydCBMaW5rIGZyb20gJ25leHQvbGluaydcblxuZXhwb3J0IGNvbnN0IEZvb3RlciA9ICgpID0+IHtcbiAgY29uc3QgeyB0YWdOYW1lcyB9ID0gdXNlQ29udGV4dChDb21tb25Db250ZXh0KVxuICBjb25zdCBuYXZJdGVtcyA9IEdldCgnZm9vdGVyTGlua3MnKVxuXG4gIHJldHVybiAoXG4gICAgPD5cbiAgICAgIDxmb290ZXIgY2xhc3NOYW1lPVwiZm9vdGVyXCI+XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiZm9vdGVyLXRhZ3NcIj5cbiAgICAgICAgICA8aDQgY2xhc3NOYW1lPVwiZm9vdGVyLXRhZ3MtdGl0bGVcIj5UYWdzPC9oND5cbiAgICAgICAgICA8VGFncyB0YWdzPXt0YWdOYW1lc30gLz5cbiAgICAgICAgPC9kaXY+XG4gICAgICAgIHtuYXZJdGVtcy5sZW5ndGggPiAwICYmIChcbiAgICAgICAgICA8bmF2IGNsYXNzTmFtZT1cImZvb3Rlci1uYXZcIj5cbiAgICAgICAgICAgIHtuYXZJdGVtcy5tYXAoKGl0ZW0sIGtleSkgPT4gKFxuICAgICAgICAgICAgICA8TGluayBrZXk9e2tleX0gaHJlZj17aXRlbS5ocmVmfT5cbiAgICAgICAgICAgICAgICA8YVxuICAgICAgICAgICAgICAgICAgaHJlZj17aXRlbS5ocmVmfVxuICAgICAgICAgICAgICAgICAgey4uLihpdGVtLm5ld1RhYiA/IHsgdGFyZ2V0OiAnX19ibGFuaycgfSA6IHt9KX1cbiAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT1cImZvb3Rlci1uYXYtbGlua1wiXG4gICAgICAgICAgICAgICAgPlxuICAgICAgICAgICAgICAgICAge2l0ZW0udGV4dH1cbiAgICAgICAgICAgICAgICA8L2E+XG4gICAgICAgICAgICAgIDwvTGluaz5cbiAgICAgICAgICAgICkpfVxuICAgICAgICAgIDwvbmF2PlxuICAgICAgICApfVxuICAgICAgICB7R2V0KCdjb3B5cmlnaHQnKSAmJiAoXG4gICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJmb290ZXItY29weXJpZ2h0XCI+e0Zvcm1hdEdldCgnY29weXJpZ2h0Jyl9PC9kaXY+XG4gICAgICAgICl9XG4gICAgICAgIHshR2V0KCdoaWRlVmVxdG9sQ3JlZGl0JykgJiYgKFxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiZm9vdGVyLXZlcXRvbFwiPlxuICAgICAgICAgICAgUG93ZXJlZCBieXsnICd9XG4gICAgICAgICAgICA8YVxuICAgICAgICAgICAgICBjbGFzc05hbWU9XCJmb290ZXItdmVxdG9sLWxpbmtcIlxuICAgICAgICAgICAgICBocmVmPVwiaHR0cHM6Ly9naXRodWIuY29tL2hvdGExMDI0L3ZlcXRvbFwiXG4gICAgICAgICAgICAgIHRhcmdldD1cIl9fYmxhbmtcIlxuICAgICAgICAgICAgPlxuICAgICAgICAgICAgICDwn5S6VmVxdG9sXG4gICAgICAgICAgICA8L2E+XG4gICAgICAgICAgPC9kaXY+XG4gICAgICAgICl9XG4gICAgICA8L2Zvb3Rlcj5cblxuICAgICAgPHN0eWxlIGpzeD57YFxuICAgICAgICAuZm9vdGVyLXRhZ3Mge1xuICAgICAgICAgIHBhZGRpbmc6IDMycHggMDtcbiAgICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgICAgIH1cblxuICAgICAgICAuZm9vdGVyLXRhZ3MtdGl0bGUge1xuICAgICAgICAgIGZvbnQtc2l6ZTogMnJlbTtcbiAgICAgICAgICBtYXJnaW46IDA7XG4gICAgICAgICAgbWFyZ2luLWJvdHRvbTogMzJweDtcbiAgICAgICAgfVxuXG4gICAgICAgIC5mb290ZXItbmF2IHtcbiAgICAgICAgICBwYWRkaW5nOiAzMnB4IDA7XG4gICAgICAgICAgYmFja2dyb3VuZDogJHtHZXQoJ2Zvb3Rlck5hdkNvbG9yJyl9O1xuICAgICAgICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgICAgICAgfVxuXG4gICAgICAgIC5mb290ZXItbmF2LWxpbmsge1xuICAgICAgICAgIGNvbG9yOiAke0dldCgnZm9vdGVyTmF2TGlua1RleHQnKX07XG4gICAgICAgICAgbWFyZ2luOiAwIDE0cHg7XG4gICAgICAgICAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xuICAgICAgICB9XG5cbiAgICAgICAgLmZvb3Rlci1uYXYtbGluazpob3ZlciB7XG4gICAgICAgICAgY29sb3I6ICR7R2V0KCdmb290ZXJOYXZMaW5rSG92ZXJUZXh0Jyl9O1xuICAgICAgICB9XG5cbiAgICAgICAgLmZvb3Rlci1jb3B5cmlnaHQge1xuICAgICAgICAgIGJhY2tncm91bmQ6ICR7R2V0KCdjb3B5cmlnaHRDb2xvcicpfTtcbiAgICAgICAgICBjb2xvcjogJHtHZXQoJ2NvcHlyaWdodFRleHQnKX07XG4gICAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyO1xuICAgICAgICAgIHBhZGRpbmc6IDI0cHggMDtcbiAgICAgICAgfVxuXG4gICAgICAgIC5mb290ZXItdmVxdG9sIHtcbiAgICAgICAgICBwYWRkaW5nOiAyNHB4IDA7XG4gICAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyO1xuICAgICAgICAgIGJhY2tncm91bmQ6IGJsYWNrO1xuICAgICAgICAgIGNvbG9yOiB3aGl0ZTtcbiAgICAgICAgfVxuXG4gICAgICAgIC5mb290ZXItdmVxdG9sLWxpbmsge1xuICAgICAgICAgIGNvbG9yOiAjZjQ0MzM2O1xuICAgICAgICAgIHRleHQtZGVjb3JhdGlvbjogbm9uZTtcbiAgICAgICAgfVxuICAgICAgYH08L3N0eWxlPlxuICAgIDwvPlxuICApXG59XG4iXX0= */\n/*@ sourceURL=/Users/hotaka/Desktop/Github/hota1024/veqtol-demo/src/components/Footer.tsx */")));
 };
 
 /***/ }),
@@ -15759,6 +15759,21 @@ var PostLayout = function PostLayout(props) {
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
+	"./posts/demo-0.mdx": "./src/pages/posts/demo-0.mdx",
+	"./posts/demo-1.mdx": "./src/pages/posts/demo-1.mdx",
+	"./posts/demo-10.mdx": "./src/pages/posts/demo-10.mdx",
+	"./posts/demo-11.mdx": "./src/pages/posts/demo-11.mdx",
+	"./posts/demo-12.mdx": "./src/pages/posts/demo-12.mdx",
+	"./posts/demo-13.mdx": "./src/pages/posts/demo-13.mdx",
+	"./posts/demo-14.mdx": "./src/pages/posts/demo-14.mdx",
+	"./posts/demo-2.mdx": "./src/pages/posts/demo-2.mdx",
+	"./posts/demo-3.mdx": "./src/pages/posts/demo-3.mdx",
+	"./posts/demo-4.mdx": "./src/pages/posts/demo-4.mdx",
+	"./posts/demo-5.mdx": "./src/pages/posts/demo-5.mdx",
+	"./posts/demo-6.mdx": "./src/pages/posts/demo-6.mdx",
+	"./posts/demo-7.mdx": "./src/pages/posts/demo-7.mdx",
+	"./posts/demo-8.mdx": "./src/pages/posts/demo-8.mdx",
+	"./posts/demo-9.mdx": "./src/pages/posts/demo-9.mdx",
 	"./posts/hello-world.mdx": "./src/pages/posts/hello-world.mdx"
 };
 
@@ -15947,6 +15962,1569 @@ var _default = /*#__PURE__*/function (_App) {
 }(next_app__WEBPACK_IMPORTED_MODULE_8___default.a);
 
 
+
+/***/ }),
+
+/***/ "./src/pages/posts/demo-0.mdx":
+/*!************************************!*\
+  !*** ./src/pages/posts/demo-0.mdx ***!
+  \************************************/
+/*! exports provided: meta, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "meta", function() { return meta; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return MDXContent; });
+/* harmony import */ var _babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/objectWithoutProperties */ "./node_modules/@babel/runtime/helpers/esm/objectWithoutProperties.js");
+/* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @mdx-js/react */ "./node_modules/@mdx-js/react/dist/esm.js");
+/* harmony import */ var _layouts_Post__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @/layouts/Post */ "./src/layouts/Post.tsx");
+
+
+
+var _jsxFileName = "/Users/hotaka/Desktop/Github/hota1024/veqtol-demo/src/pages/posts/demo-0.mdx",
+    _this = undefined;
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
+
+
+/* @jsx mdx */
+
+
+var meta = {
+  title: 'Hello world',
+  tags: ['this', 'is', 'a', 'demo', 'post'],
+  thumbnail: '/veqtol.png',
+  createdAt: '2020/5/12',
+  updatedAt: '2020/5/12'
+};
+
+var makeShortcode = function makeShortcode(name) {
+  return function MDXDefaultShortcode(props) {
+    console.warn("Component " + name + " was not imported, exported, or provided by MDXProvider as global scope");
+    return Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("div", Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({}, props, {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 16,
+        columnNumber: 10
+      }
+    }));
+  };
+};
+
+var layoutProps = {
+  meta: meta
+};
+
+var MDXLayout = function MDXLayout(props) {
+  return Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])(_layouts_Post__WEBPACK_IMPORTED_MODULE_4__["PostLayout"], Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({}, props, {
+    meta: meta,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 30
+    }
+  }));
+};
+
+function MDXContent(_ref) {
+  var components = _ref.components,
+      props = Object(_babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref, ["components"]);
+
+  return Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])(MDXLayout, Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({}, layoutProps, props, {
+    components: components,
+    mdxType: "MDXLayout",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27,
+      columnNumber: 10
+    }
+  }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("h1", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 5
+    }
+  }, "Demo post"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 5
+    }
+  }, "This is a demo post."), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("pre", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33,
+      columnNumber: 5
+    }
+  }, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("code", Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({
+    parentName: "pre"
+  }, {
+    "className": "language-cpp",
+    "metastring": "title=main.cpp",
+    "title": "main.cpp"
+  }, {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33,
+      columnNumber: 10
+    }
+  }), "# include <iostream>\n\nint main()\n{\n  std::cout << \"Hello world\" << std::endl;\n\n  return 0;\n}\n")));
+}
+;
+MDXContent.isMDXComponent = true;
+
+/***/ }),
+
+/***/ "./src/pages/posts/demo-1.mdx":
+/*!************************************!*\
+  !*** ./src/pages/posts/demo-1.mdx ***!
+  \************************************/
+/*! exports provided: meta, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "meta", function() { return meta; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return MDXContent; });
+/* harmony import */ var _babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/objectWithoutProperties */ "./node_modules/@babel/runtime/helpers/esm/objectWithoutProperties.js");
+/* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @mdx-js/react */ "./node_modules/@mdx-js/react/dist/esm.js");
+/* harmony import */ var _layouts_Post__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @/layouts/Post */ "./src/layouts/Post.tsx");
+
+
+
+var _jsxFileName = "/Users/hotaka/Desktop/Github/hota1024/veqtol-demo/src/pages/posts/demo-1.mdx",
+    _this = undefined;
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
+
+
+/* @jsx mdx */
+
+
+var meta = {
+  title: 'Hello world',
+  tags: ['this', 'is', 'a', 'demo', 'post'],
+  thumbnail: '/veqtol.png',
+  createdAt: '2020/5/12',
+  updatedAt: '2020/5/12'
+};
+
+var makeShortcode = function makeShortcode(name) {
+  return function MDXDefaultShortcode(props) {
+    console.warn("Component " + name + " was not imported, exported, or provided by MDXProvider as global scope");
+    return Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("div", Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({}, props, {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 16,
+        columnNumber: 10
+      }
+    }));
+  };
+};
+
+var layoutProps = {
+  meta: meta
+};
+
+var MDXLayout = function MDXLayout(props) {
+  return Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])(_layouts_Post__WEBPACK_IMPORTED_MODULE_4__["PostLayout"], Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({}, props, {
+    meta: meta,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 30
+    }
+  }));
+};
+
+function MDXContent(_ref) {
+  var components = _ref.components,
+      props = Object(_babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref, ["components"]);
+
+  return Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])(MDXLayout, Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({}, layoutProps, props, {
+    components: components,
+    mdxType: "MDXLayout",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27,
+      columnNumber: 10
+    }
+  }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("h1", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 5
+    }
+  }, "Demo post"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 5
+    }
+  }, "This is a demo post."), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("pre", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33,
+      columnNumber: 5
+    }
+  }, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("code", Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({
+    parentName: "pre"
+  }, {
+    "className": "language-typescript",
+    "metastring": "title=main.ts highlight=0+4",
+    "title": "main.ts",
+    "highlight": "0+4"
+  }, {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33,
+      columnNumber: 10
+    }
+  }), "// Highlight\n// Highlight\n// Highlight\n// Highlight\n// Highlight\nconsole.log('Hello world')\n")));
+}
+;
+MDXContent.isMDXComponent = true;
+
+/***/ }),
+
+/***/ "./src/pages/posts/demo-10.mdx":
+/*!*************************************!*\
+  !*** ./src/pages/posts/demo-10.mdx ***!
+  \*************************************/
+/*! exports provided: meta, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "meta", function() { return meta; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return MDXContent; });
+/* harmony import */ var _babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/objectWithoutProperties */ "./node_modules/@babel/runtime/helpers/esm/objectWithoutProperties.js");
+/* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @mdx-js/react */ "./node_modules/@mdx-js/react/dist/esm.js");
+/* harmony import */ var _layouts_Post__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @/layouts/Post */ "./src/layouts/Post.tsx");
+
+
+
+var _jsxFileName = "/Users/hotaka/Desktop/Github/hota1024/veqtol-demo/src/pages/posts/demo-10.mdx",
+    _this = undefined;
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
+
+
+/* @jsx mdx */
+
+
+var meta = {
+  title: 'Hello world',
+  tags: ['this', 'is', 'a', 'demo', 'post'],
+  thumbnail: '/veqtol.png',
+  createdAt: '2020/5/12',
+  updatedAt: '2020/5/12'
+};
+
+var makeShortcode = function makeShortcode(name) {
+  return function MDXDefaultShortcode(props) {
+    console.warn("Component " + name + " was not imported, exported, or provided by MDXProvider as global scope");
+    return Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("div", Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({}, props, {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 16,
+        columnNumber: 10
+      }
+    }));
+  };
+};
+
+var layoutProps = {
+  meta: meta
+};
+
+var MDXLayout = function MDXLayout(props) {
+  return Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])(_layouts_Post__WEBPACK_IMPORTED_MODULE_4__["PostLayout"], Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({}, props, {
+    meta: meta,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 30
+    }
+  }));
+};
+
+function MDXContent(_ref) {
+  var components = _ref.components,
+      props = Object(_babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref, ["components"]);
+
+  return Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])(MDXLayout, Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({}, layoutProps, props, {
+    components: components,
+    mdxType: "MDXLayout",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27,
+      columnNumber: 10
+    }
+  }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("h1", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 5
+    }
+  }, "Demo post"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 5
+    }
+  }, "This is a demo post."));
+}
+;
+MDXContent.isMDXComponent = true;
+
+/***/ }),
+
+/***/ "./src/pages/posts/demo-11.mdx":
+/*!*************************************!*\
+  !*** ./src/pages/posts/demo-11.mdx ***!
+  \*************************************/
+/*! exports provided: meta, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "meta", function() { return meta; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return MDXContent; });
+/* harmony import */ var _babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/objectWithoutProperties */ "./node_modules/@babel/runtime/helpers/esm/objectWithoutProperties.js");
+/* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @mdx-js/react */ "./node_modules/@mdx-js/react/dist/esm.js");
+/* harmony import */ var _layouts_Post__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @/layouts/Post */ "./src/layouts/Post.tsx");
+
+
+
+var _jsxFileName = "/Users/hotaka/Desktop/Github/hota1024/veqtol-demo/src/pages/posts/demo-11.mdx",
+    _this = undefined;
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
+
+
+/* @jsx mdx */
+
+
+var meta = {
+  title: 'Hello world',
+  tags: ['this', 'is', 'a', 'demo', 'post'],
+  thumbnail: '/veqtol.png',
+  createdAt: '2020/5/12',
+  updatedAt: '2020/5/12'
+};
+
+var makeShortcode = function makeShortcode(name) {
+  return function MDXDefaultShortcode(props) {
+    console.warn("Component " + name + " was not imported, exported, or provided by MDXProvider as global scope");
+    return Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("div", Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({}, props, {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 16,
+        columnNumber: 10
+      }
+    }));
+  };
+};
+
+var layoutProps = {
+  meta: meta
+};
+
+var MDXLayout = function MDXLayout(props) {
+  return Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])(_layouts_Post__WEBPACK_IMPORTED_MODULE_4__["PostLayout"], Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({}, props, {
+    meta: meta,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 30
+    }
+  }));
+};
+
+function MDXContent(_ref) {
+  var components = _ref.components,
+      props = Object(_babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref, ["components"]);
+
+  return Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])(MDXLayout, Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({}, layoutProps, props, {
+    components: components,
+    mdxType: "MDXLayout",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27,
+      columnNumber: 10
+    }
+  }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("h1", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 5
+    }
+  }, "Demo post"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 5
+    }
+  }, "This is a demo post."));
+}
+;
+MDXContent.isMDXComponent = true;
+
+/***/ }),
+
+/***/ "./src/pages/posts/demo-12.mdx":
+/*!*************************************!*\
+  !*** ./src/pages/posts/demo-12.mdx ***!
+  \*************************************/
+/*! exports provided: meta, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "meta", function() { return meta; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return MDXContent; });
+/* harmony import */ var _babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/objectWithoutProperties */ "./node_modules/@babel/runtime/helpers/esm/objectWithoutProperties.js");
+/* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @mdx-js/react */ "./node_modules/@mdx-js/react/dist/esm.js");
+/* harmony import */ var _layouts_Post__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @/layouts/Post */ "./src/layouts/Post.tsx");
+
+
+
+var _jsxFileName = "/Users/hotaka/Desktop/Github/hota1024/veqtol-demo/src/pages/posts/demo-12.mdx",
+    _this = undefined;
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
+
+
+/* @jsx mdx */
+
+
+var meta = {
+  title: 'Hello world',
+  tags: ['this', 'is', 'a', 'demo', 'post'],
+  thumbnail: '/veqtol.png',
+  createdAt: '2020/5/12',
+  updatedAt: '2020/5/12'
+};
+
+var makeShortcode = function makeShortcode(name) {
+  return function MDXDefaultShortcode(props) {
+    console.warn("Component " + name + " was not imported, exported, or provided by MDXProvider as global scope");
+    return Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("div", Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({}, props, {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 16,
+        columnNumber: 10
+      }
+    }));
+  };
+};
+
+var layoutProps = {
+  meta: meta
+};
+
+var MDXLayout = function MDXLayout(props) {
+  return Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])(_layouts_Post__WEBPACK_IMPORTED_MODULE_4__["PostLayout"], Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({}, props, {
+    meta: meta,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 30
+    }
+  }));
+};
+
+function MDXContent(_ref) {
+  var components = _ref.components,
+      props = Object(_babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref, ["components"]);
+
+  return Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])(MDXLayout, Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({}, layoutProps, props, {
+    components: components,
+    mdxType: "MDXLayout",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27,
+      columnNumber: 10
+    }
+  }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("h1", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 5
+    }
+  }, "Demo post"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 5
+    }
+  }, "This is a demo post."));
+}
+;
+MDXContent.isMDXComponent = true;
+
+/***/ }),
+
+/***/ "./src/pages/posts/demo-13.mdx":
+/*!*************************************!*\
+  !*** ./src/pages/posts/demo-13.mdx ***!
+  \*************************************/
+/*! exports provided: meta, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "meta", function() { return meta; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return MDXContent; });
+/* harmony import */ var _babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/objectWithoutProperties */ "./node_modules/@babel/runtime/helpers/esm/objectWithoutProperties.js");
+/* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @mdx-js/react */ "./node_modules/@mdx-js/react/dist/esm.js");
+/* harmony import */ var _layouts_Post__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @/layouts/Post */ "./src/layouts/Post.tsx");
+
+
+
+var _jsxFileName = "/Users/hotaka/Desktop/Github/hota1024/veqtol-demo/src/pages/posts/demo-13.mdx",
+    _this = undefined;
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
+
+
+/* @jsx mdx */
+
+
+var meta = {
+  title: 'Hello world',
+  tags: ['this', 'is', 'a', 'demo', 'post'],
+  thumbnail: '/veqtol.png',
+  createdAt: '2020/5/12',
+  updatedAt: '2020/5/12'
+};
+
+var makeShortcode = function makeShortcode(name) {
+  return function MDXDefaultShortcode(props) {
+    console.warn("Component " + name + " was not imported, exported, or provided by MDXProvider as global scope");
+    return Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("div", Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({}, props, {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 16,
+        columnNumber: 10
+      }
+    }));
+  };
+};
+
+var layoutProps = {
+  meta: meta
+};
+
+var MDXLayout = function MDXLayout(props) {
+  return Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])(_layouts_Post__WEBPACK_IMPORTED_MODULE_4__["PostLayout"], Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({}, props, {
+    meta: meta,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 30
+    }
+  }));
+};
+
+function MDXContent(_ref) {
+  var components = _ref.components,
+      props = Object(_babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref, ["components"]);
+
+  return Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])(MDXLayout, Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({}, layoutProps, props, {
+    components: components,
+    mdxType: "MDXLayout",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27,
+      columnNumber: 10
+    }
+  }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("h1", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 5
+    }
+  }, "Demo post"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 5
+    }
+  }, "This is a demo post."));
+}
+;
+MDXContent.isMDXComponent = true;
+
+/***/ }),
+
+/***/ "./src/pages/posts/demo-14.mdx":
+/*!*************************************!*\
+  !*** ./src/pages/posts/demo-14.mdx ***!
+  \*************************************/
+/*! exports provided: meta, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "meta", function() { return meta; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return MDXContent; });
+/* harmony import */ var _babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/objectWithoutProperties */ "./node_modules/@babel/runtime/helpers/esm/objectWithoutProperties.js");
+/* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @mdx-js/react */ "./node_modules/@mdx-js/react/dist/esm.js");
+/* harmony import */ var _layouts_Post__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @/layouts/Post */ "./src/layouts/Post.tsx");
+
+
+
+var _jsxFileName = "/Users/hotaka/Desktop/Github/hota1024/veqtol-demo/src/pages/posts/demo-14.mdx",
+    _this = undefined;
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
+
+
+/* @jsx mdx */
+
+
+var meta = {
+  title: 'Hello world',
+  tags: ['this', 'is', 'a', 'demo', 'post'],
+  thumbnail: '/veqtol.png',
+  createdAt: '2020/5/12',
+  updatedAt: '2020/5/12'
+};
+
+var makeShortcode = function makeShortcode(name) {
+  return function MDXDefaultShortcode(props) {
+    console.warn("Component " + name + " was not imported, exported, or provided by MDXProvider as global scope");
+    return Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("div", Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({}, props, {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 16,
+        columnNumber: 10
+      }
+    }));
+  };
+};
+
+var layoutProps = {
+  meta: meta
+};
+
+var MDXLayout = function MDXLayout(props) {
+  return Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])(_layouts_Post__WEBPACK_IMPORTED_MODULE_4__["PostLayout"], Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({}, props, {
+    meta: meta,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 30
+    }
+  }));
+};
+
+function MDXContent(_ref) {
+  var components = _ref.components,
+      props = Object(_babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref, ["components"]);
+
+  return Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])(MDXLayout, Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({}, layoutProps, props, {
+    components: components,
+    mdxType: "MDXLayout",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27,
+      columnNumber: 10
+    }
+  }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("h1", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 5
+    }
+  }, "Demo post"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 5
+    }
+  }, "This is a demo post."));
+}
+;
+MDXContent.isMDXComponent = true;
+
+/***/ }),
+
+/***/ "./src/pages/posts/demo-2.mdx":
+/*!************************************!*\
+  !*** ./src/pages/posts/demo-2.mdx ***!
+  \************************************/
+/*! exports provided: meta, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "meta", function() { return meta; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return MDXContent; });
+/* harmony import */ var _babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/objectWithoutProperties */ "./node_modules/@babel/runtime/helpers/esm/objectWithoutProperties.js");
+/* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @mdx-js/react */ "./node_modules/@mdx-js/react/dist/esm.js");
+/* harmony import */ var _layouts_Post__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @/layouts/Post */ "./src/layouts/Post.tsx");
+
+
+
+var _jsxFileName = "/Users/hotaka/Desktop/Github/hota1024/veqtol-demo/src/pages/posts/demo-2.mdx",
+    _this = undefined;
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
+
+
+/* @jsx mdx */
+
+
+var meta = {
+  title: 'Hello world',
+  tags: ['this', 'is', 'a', 'demo', 'post'],
+  thumbnail: '/veqtol.png',
+  createdAt: '2020/5/12',
+  updatedAt: '2020/5/12'
+};
+
+var makeShortcode = function makeShortcode(name) {
+  return function MDXDefaultShortcode(props) {
+    console.warn("Component " + name + " was not imported, exported, or provided by MDXProvider as global scope");
+    return Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("div", Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({}, props, {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 16,
+        columnNumber: 10
+      }
+    }));
+  };
+};
+
+var layoutProps = {
+  meta: meta
+};
+
+var MDXLayout = function MDXLayout(props) {
+  return Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])(_layouts_Post__WEBPACK_IMPORTED_MODULE_4__["PostLayout"], Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({}, props, {
+    meta: meta,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 30
+    }
+  }));
+};
+
+function MDXContent(_ref) {
+  var components = _ref.components,
+      props = Object(_babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref, ["components"]);
+
+  return Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])(MDXLayout, Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({}, layoutProps, props, {
+    components: components,
+    mdxType: "MDXLayout",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27,
+      columnNumber: 10
+    }
+  }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("h1", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 5
+    }
+  }, "Demo post"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 5
+    }
+  }, "This is a demo post."), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33,
+      columnNumber: 5
+    }
+  }, "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est optio deleniti ratione, ullam maxime inventore vel reprehenderit quaerat voluptates fuga. Quis accusamus minima tenetur pariatur repellendus esse, reprehenderit earum ipsam."));
+}
+;
+MDXContent.isMDXComponent = true;
+
+/***/ }),
+
+/***/ "./src/pages/posts/demo-3.mdx":
+/*!************************************!*\
+  !*** ./src/pages/posts/demo-3.mdx ***!
+  \************************************/
+/*! exports provided: meta, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "meta", function() { return meta; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return MDXContent; });
+/* harmony import */ var _babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/objectWithoutProperties */ "./node_modules/@babel/runtime/helpers/esm/objectWithoutProperties.js");
+/* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @mdx-js/react */ "./node_modules/@mdx-js/react/dist/esm.js");
+/* harmony import */ var _layouts_Post__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @/layouts/Post */ "./src/layouts/Post.tsx");
+
+
+
+var _jsxFileName = "/Users/hotaka/Desktop/Github/hota1024/veqtol-demo/src/pages/posts/demo-3.mdx",
+    _this = undefined;
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
+
+
+/* @jsx mdx */
+
+
+var meta = {
+  title: 'Hello world',
+  tags: ['this', 'is', 'a', 'demo', 'post'],
+  thumbnail: '/veqtol.png',
+  createdAt: '2020/5/12',
+  updatedAt: '2020/5/12'
+};
+
+var makeShortcode = function makeShortcode(name) {
+  return function MDXDefaultShortcode(props) {
+    console.warn("Component " + name + " was not imported, exported, or provided by MDXProvider as global scope");
+    return Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("div", Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({}, props, {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 16,
+        columnNumber: 10
+      }
+    }));
+  };
+};
+
+var layoutProps = {
+  meta: meta
+};
+
+var MDXLayout = function MDXLayout(props) {
+  return Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])(_layouts_Post__WEBPACK_IMPORTED_MODULE_4__["PostLayout"], Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({}, props, {
+    meta: meta,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 30
+    }
+  }));
+};
+
+function MDXContent(_ref) {
+  var components = _ref.components,
+      props = Object(_babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref, ["components"]);
+
+  return Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])(MDXLayout, Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({}, layoutProps, props, {
+    components: components,
+    mdxType: "MDXLayout",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27,
+      columnNumber: 10
+    }
+  }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("h1", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 5
+    }
+  }, "Demo post"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 5
+    }
+  }, "This is a demo post."));
+}
+;
+MDXContent.isMDXComponent = true;
+
+/***/ }),
+
+/***/ "./src/pages/posts/demo-4.mdx":
+/*!************************************!*\
+  !*** ./src/pages/posts/demo-4.mdx ***!
+  \************************************/
+/*! exports provided: meta, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "meta", function() { return meta; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return MDXContent; });
+/* harmony import */ var _babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/objectWithoutProperties */ "./node_modules/@babel/runtime/helpers/esm/objectWithoutProperties.js");
+/* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @mdx-js/react */ "./node_modules/@mdx-js/react/dist/esm.js");
+/* harmony import */ var _layouts_Post__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @/layouts/Post */ "./src/layouts/Post.tsx");
+
+
+
+var _jsxFileName = "/Users/hotaka/Desktop/Github/hota1024/veqtol-demo/src/pages/posts/demo-4.mdx",
+    _this = undefined;
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
+
+
+/* @jsx mdx */
+
+
+var meta = {
+  title: 'Hello world',
+  tags: ['this', 'is', 'a', 'demo', 'post'],
+  thumbnail: '/veqtol.png',
+  createdAt: '2020/5/12',
+  updatedAt: '2020/5/12'
+};
+
+var makeShortcode = function makeShortcode(name) {
+  return function MDXDefaultShortcode(props) {
+    console.warn("Component " + name + " was not imported, exported, or provided by MDXProvider as global scope");
+    return Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("div", Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({}, props, {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 16,
+        columnNumber: 10
+      }
+    }));
+  };
+};
+
+var layoutProps = {
+  meta: meta
+};
+
+var MDXLayout = function MDXLayout(props) {
+  return Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])(_layouts_Post__WEBPACK_IMPORTED_MODULE_4__["PostLayout"], Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({}, props, {
+    meta: meta,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 30
+    }
+  }));
+};
+
+function MDXContent(_ref) {
+  var components = _ref.components,
+      props = Object(_babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref, ["components"]);
+
+  return Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])(MDXLayout, Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({}, layoutProps, props, {
+    components: components,
+    mdxType: "MDXLayout",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27,
+      columnNumber: 10
+    }
+  }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("h1", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 5
+    }
+  }, "Demo post"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 5
+    }
+  }, "This is a demo post."));
+}
+;
+MDXContent.isMDXComponent = true;
+
+/***/ }),
+
+/***/ "./src/pages/posts/demo-5.mdx":
+/*!************************************!*\
+  !*** ./src/pages/posts/demo-5.mdx ***!
+  \************************************/
+/*! exports provided: meta, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "meta", function() { return meta; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return MDXContent; });
+/* harmony import */ var _babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/objectWithoutProperties */ "./node_modules/@babel/runtime/helpers/esm/objectWithoutProperties.js");
+/* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @mdx-js/react */ "./node_modules/@mdx-js/react/dist/esm.js");
+/* harmony import */ var _layouts_Post__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @/layouts/Post */ "./src/layouts/Post.tsx");
+
+
+
+var _jsxFileName = "/Users/hotaka/Desktop/Github/hota1024/veqtol-demo/src/pages/posts/demo-5.mdx",
+    _this = undefined;
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
+
+
+/* @jsx mdx */
+
+
+var meta = {
+  title: 'Hello world',
+  tags: ['this', 'is', 'a', 'demo', 'post'],
+  thumbnail: '/veqtol.png',
+  createdAt: '2020/5/12',
+  updatedAt: '2020/5/12'
+};
+
+var makeShortcode = function makeShortcode(name) {
+  return function MDXDefaultShortcode(props) {
+    console.warn("Component " + name + " was not imported, exported, or provided by MDXProvider as global scope");
+    return Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("div", Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({}, props, {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 16,
+        columnNumber: 10
+      }
+    }));
+  };
+};
+
+var layoutProps = {
+  meta: meta
+};
+
+var MDXLayout = function MDXLayout(props) {
+  return Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])(_layouts_Post__WEBPACK_IMPORTED_MODULE_4__["PostLayout"], Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({}, props, {
+    meta: meta,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 30
+    }
+  }));
+};
+
+function MDXContent(_ref) {
+  var components = _ref.components,
+      props = Object(_babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref, ["components"]);
+
+  return Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])(MDXLayout, Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({}, layoutProps, props, {
+    components: components,
+    mdxType: "MDXLayout",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27,
+      columnNumber: 10
+    }
+  }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("h1", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 5
+    }
+  }, "Demo post"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 5
+    }
+  }, "This is a demo post."));
+}
+;
+MDXContent.isMDXComponent = true;
+
+/***/ }),
+
+/***/ "./src/pages/posts/demo-6.mdx":
+/*!************************************!*\
+  !*** ./src/pages/posts/demo-6.mdx ***!
+  \************************************/
+/*! exports provided: meta, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "meta", function() { return meta; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return MDXContent; });
+/* harmony import */ var _babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/objectWithoutProperties */ "./node_modules/@babel/runtime/helpers/esm/objectWithoutProperties.js");
+/* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @mdx-js/react */ "./node_modules/@mdx-js/react/dist/esm.js");
+/* harmony import */ var _layouts_Post__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @/layouts/Post */ "./src/layouts/Post.tsx");
+
+
+
+var _jsxFileName = "/Users/hotaka/Desktop/Github/hota1024/veqtol-demo/src/pages/posts/demo-6.mdx",
+    _this = undefined;
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
+
+
+/* @jsx mdx */
+
+
+var meta = {
+  title: 'Hello world',
+  tags: ['this', 'is', 'a', 'demo', 'post'],
+  thumbnail: '/veqtol.png',
+  createdAt: '2020/5/12',
+  updatedAt: '2020/5/12'
+};
+
+var makeShortcode = function makeShortcode(name) {
+  return function MDXDefaultShortcode(props) {
+    console.warn("Component " + name + " was not imported, exported, or provided by MDXProvider as global scope");
+    return Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("div", Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({}, props, {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 16,
+        columnNumber: 10
+      }
+    }));
+  };
+};
+
+var layoutProps = {
+  meta: meta
+};
+
+var MDXLayout = function MDXLayout(props) {
+  return Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])(_layouts_Post__WEBPACK_IMPORTED_MODULE_4__["PostLayout"], Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({}, props, {
+    meta: meta,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 30
+    }
+  }));
+};
+
+function MDXContent(_ref) {
+  var components = _ref.components,
+      props = Object(_babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref, ["components"]);
+
+  return Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])(MDXLayout, Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({}, layoutProps, props, {
+    components: components,
+    mdxType: "MDXLayout",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27,
+      columnNumber: 10
+    }
+  }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("h1", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 5
+    }
+  }, "Demo post"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 5
+    }
+  }, "This is a demo post."));
+}
+;
+MDXContent.isMDXComponent = true;
+
+/***/ }),
+
+/***/ "./src/pages/posts/demo-7.mdx":
+/*!************************************!*\
+  !*** ./src/pages/posts/demo-7.mdx ***!
+  \************************************/
+/*! exports provided: meta, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "meta", function() { return meta; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return MDXContent; });
+/* harmony import */ var _babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/objectWithoutProperties */ "./node_modules/@babel/runtime/helpers/esm/objectWithoutProperties.js");
+/* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @mdx-js/react */ "./node_modules/@mdx-js/react/dist/esm.js");
+/* harmony import */ var _layouts_Post__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @/layouts/Post */ "./src/layouts/Post.tsx");
+
+
+
+var _jsxFileName = "/Users/hotaka/Desktop/Github/hota1024/veqtol-demo/src/pages/posts/demo-7.mdx",
+    _this = undefined;
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
+
+
+/* @jsx mdx */
+
+
+var meta = {
+  title: 'Hello world',
+  tags: ['this', 'is', 'a', 'demo', 'post'],
+  thumbnail: '/veqtol.png',
+  createdAt: '2020/5/12',
+  updatedAt: '2020/5/12'
+};
+
+var makeShortcode = function makeShortcode(name) {
+  return function MDXDefaultShortcode(props) {
+    console.warn("Component " + name + " was not imported, exported, or provided by MDXProvider as global scope");
+    return Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("div", Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({}, props, {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 16,
+        columnNumber: 10
+      }
+    }));
+  };
+};
+
+var layoutProps = {
+  meta: meta
+};
+
+var MDXLayout = function MDXLayout(props) {
+  return Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])(_layouts_Post__WEBPACK_IMPORTED_MODULE_4__["PostLayout"], Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({}, props, {
+    meta: meta,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 30
+    }
+  }));
+};
+
+function MDXContent(_ref) {
+  var components = _ref.components,
+      props = Object(_babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref, ["components"]);
+
+  return Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])(MDXLayout, Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({}, layoutProps, props, {
+    components: components,
+    mdxType: "MDXLayout",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27,
+      columnNumber: 10
+    }
+  }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("h1", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 5
+    }
+  }, "Demo post"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 5
+    }
+  }, "This is a demo post."));
+}
+;
+MDXContent.isMDXComponent = true;
+
+/***/ }),
+
+/***/ "./src/pages/posts/demo-8.mdx":
+/*!************************************!*\
+  !*** ./src/pages/posts/demo-8.mdx ***!
+  \************************************/
+/*! exports provided: meta, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "meta", function() { return meta; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return MDXContent; });
+/* harmony import */ var _babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/objectWithoutProperties */ "./node_modules/@babel/runtime/helpers/esm/objectWithoutProperties.js");
+/* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @mdx-js/react */ "./node_modules/@mdx-js/react/dist/esm.js");
+/* harmony import */ var _layouts_Post__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @/layouts/Post */ "./src/layouts/Post.tsx");
+
+
+
+var _jsxFileName = "/Users/hotaka/Desktop/Github/hota1024/veqtol-demo/src/pages/posts/demo-8.mdx",
+    _this = undefined;
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
+
+
+/* @jsx mdx */
+
+
+var meta = {
+  title: 'Hello world',
+  tags: ['this', 'is', 'a', 'demo', 'post'],
+  thumbnail: '/veqtol.png',
+  createdAt: '2020/5/12',
+  updatedAt: '2020/5/12'
+};
+
+var makeShortcode = function makeShortcode(name) {
+  return function MDXDefaultShortcode(props) {
+    console.warn("Component " + name + " was not imported, exported, or provided by MDXProvider as global scope");
+    return Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("div", Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({}, props, {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 16,
+        columnNumber: 10
+      }
+    }));
+  };
+};
+
+var layoutProps = {
+  meta: meta
+};
+
+var MDXLayout = function MDXLayout(props) {
+  return Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])(_layouts_Post__WEBPACK_IMPORTED_MODULE_4__["PostLayout"], Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({}, props, {
+    meta: meta,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 30
+    }
+  }));
+};
+
+function MDXContent(_ref) {
+  var components = _ref.components,
+      props = Object(_babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref, ["components"]);
+
+  return Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])(MDXLayout, Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({}, layoutProps, props, {
+    components: components,
+    mdxType: "MDXLayout",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27,
+      columnNumber: 10
+    }
+  }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("h1", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 5
+    }
+  }, "Demo post"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 5
+    }
+  }, "This is a demo post."));
+}
+;
+MDXContent.isMDXComponent = true;
+
+/***/ }),
+
+/***/ "./src/pages/posts/demo-9.mdx":
+/*!************************************!*\
+  !*** ./src/pages/posts/demo-9.mdx ***!
+  \************************************/
+/*! exports provided: meta, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "meta", function() { return meta; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return MDXContent; });
+/* harmony import */ var _babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/objectWithoutProperties */ "./node_modules/@babel/runtime/helpers/esm/objectWithoutProperties.js");
+/* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @mdx-js/react */ "./node_modules/@mdx-js/react/dist/esm.js");
+/* harmony import */ var _layouts_Post__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @/layouts/Post */ "./src/layouts/Post.tsx");
+
+
+
+var _jsxFileName = "/Users/hotaka/Desktop/Github/hota1024/veqtol-demo/src/pages/posts/demo-9.mdx",
+    _this = undefined;
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
+
+
+/* @jsx mdx */
+
+
+var meta = {
+  title: 'Hello world',
+  tags: ['this', 'is', 'a', 'demo', 'post'],
+  thumbnail: '/veqtol.png',
+  createdAt: '2020/5/12',
+  updatedAt: '2020/5/12'
+};
+
+var makeShortcode = function makeShortcode(name) {
+  return function MDXDefaultShortcode(props) {
+    console.warn("Component " + name + " was not imported, exported, or provided by MDXProvider as global scope");
+    return Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("div", Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({}, props, {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 16,
+        columnNumber: 10
+      }
+    }));
+  };
+};
+
+var layoutProps = {
+  meta: meta
+};
+
+var MDXLayout = function MDXLayout(props) {
+  return Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])(_layouts_Post__WEBPACK_IMPORTED_MODULE_4__["PostLayout"], Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({}, props, {
+    meta: meta,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 30
+    }
+  }));
+};
+
+function MDXContent(_ref) {
+  var components = _ref.components,
+      props = Object(_babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref, ["components"]);
+
+  return Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])(MDXLayout, Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({}, layoutProps, props, {
+    components: components,
+    mdxType: "MDXLayout",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27,
+      columnNumber: 10
+    }
+  }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("h1", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 5
+    }
+  }, "Demo post"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 5
+    }
+  }, "This is a demo post."));
+}
+;
+MDXContent.isMDXComponent = true;
 
 /***/ }),
 
@@ -16768,21 +18346,21 @@ __webpack_require__.r(__webpack_exports__);
 /*!*********************!*\
   !*** ./veqtol.json ***!
   \*********************/
-/*! exports provided: title, description, siteUrl, default */
+/*! exports provided: title, description, siteUrl, copyright, footerLinks, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"title\":\"Demo\",\"description\":\"Veqtol demo site\",\"siteUrl\":\"http://veqtol-demo.now.sh\"}");
+module.exports = JSON.parse("{\"title\":\"Demo\",\"description\":\"Veqtol demo site\",\"siteUrl\":\"http://veqtol-demo.now.sh\",\"copyright\":\"Your copyright here\",\"footerLinks\":[{\"text\":\"Home\",\"href\":\"/\"},{\"text\":\"Github\",\"href\":\"https://github.com/hota1024/veqtol-demo\",\"newTab\":true}]}");
 
 /***/ }),
 
-/***/ 1:
-/*!***************************************************************************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Fposts%2Fhello-world&absolutePagePath=%2FUsers%2Fhotaka%2FDesktop%2FGithub%2Fhota1024%2Fveqtol-demo%2Fsrc%2Fpages%2Fposts%2Fhello-world.mdx&hotRouterUpdates=true ***!
-  \***************************************************************************************************************************************************************************************************************/
+/***/ 8:
+/*!*******************************************************************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Fposts%2Fdemo-11&absolutePagePath=%2FUsers%2Fhotaka%2FDesktop%2FGithub%2Fhota1024%2Fveqtol-demo%2Fsrc%2Fpages%2Fposts%2Fdemo-11.mdx&hotRouterUpdates=true ***!
+  \*******************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fposts%2Fhello-world&absolutePagePath=%2FUsers%2Fhotaka%2FDesktop%2FGithub%2Fhota1024%2Fveqtol-demo%2Fsrc%2Fpages%2Fposts%2Fhello-world.mdx&hotRouterUpdates=true! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fposts%2Fhello-world&absolutePagePath=%2FUsers%2Fhotaka%2FDesktop%2FGithub%2Fhota1024%2Fveqtol-demo%2Fsrc%2Fpages%2Fposts%2Fhello-world.mdx&hotRouterUpdates=true!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fposts%2Fdemo-11&absolutePagePath=%2FUsers%2Fhotaka%2FDesktop%2FGithub%2Fhota1024%2Fveqtol-demo%2Fsrc%2Fpages%2Fposts%2Fdemo-11.mdx&hotRouterUpdates=true! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fposts%2Fdemo-11&absolutePagePath=%2FUsers%2Fhotaka%2FDesktop%2FGithub%2Fhota1024%2Fveqtol-demo%2Fsrc%2Fpages%2Fposts%2Fdemo-11.mdx&hotRouterUpdates=true!./");
 
 
 /***/ }),
@@ -16798,5 +18376,5 @@ module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]);
-//# sourceMappingURL=hello-world.js.map
+},[[8,"static/runtime/webpack.js"]]]);
+//# sourceMappingURL=demo-11.js.map

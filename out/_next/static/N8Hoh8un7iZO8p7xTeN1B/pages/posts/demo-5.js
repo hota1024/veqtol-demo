@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[18],{Fx1f:function(n,o,w){(window.__NEXT_P=window.__NEXT_P||[]).push(["/posts/demo-5",function(){return w("Jy4g")}])}},[["Fx1f",0,2,1,3]]]);

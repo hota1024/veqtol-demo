@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[20],{Sf3L:function(n,o,w){(window.__NEXT_P=window.__NEXT_P||[]).push(["/posts/demo-7",function(){return w("thmG")}])}},[["Sf3L",0,2,1,3]]]);

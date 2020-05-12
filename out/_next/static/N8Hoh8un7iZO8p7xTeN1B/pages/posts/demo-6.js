@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[19],{"/P2F":function(n,o,w){(window.__NEXT_P=window.__NEXT_P||[]).push(["/posts/demo-6",function(){return w("oaPz")}])}},[["/P2F",0,2,1,3]]]);

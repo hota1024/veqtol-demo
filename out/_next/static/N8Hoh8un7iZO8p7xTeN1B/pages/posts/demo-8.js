@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[21],{pY36:function(n,o,w){(window.__NEXT_P=window.__NEXT_P||[]).push(["/posts/demo-8",function(){return w("oJEG")}])}},[["pY36",0,2,1,3]]]);
