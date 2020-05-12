@@ -1,5 +1,11 @@
 {
+<<<<<<< HEAD
   "title": "Demo",
   "description": "Veqtol demo site",
   "siteUrl": "http://veqtol-demo.now.sh"
+=======
+  "title": "Your site title",
+  "description": "Your site description",
+  "siteUrl": "http://localhost"
+>>>>>>> upstream/master
 }
