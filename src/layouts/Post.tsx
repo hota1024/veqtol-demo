@@ -14,10 +14,6 @@ import {
   HeadMeta,
 } from '@/components'
 import { Get } from '@/utils'
-<<<<<<< HEAD
-import Head from 'next/head'
-=======
->>>>>>> upstream/master
 
 export type PostLayoutProps = {
   meta: PostMeta
@@ -30,21 +26,11 @@ export const PostLayout: FC<PostLayoutProps> = (props) => {
 
   return (
     <>
-<<<<<<< HEAD
-      <Head>
-        <HeadMeta
-          title={title}
-          description={description}
-          image={meta.thumbnail ? Get('siteUrl') + meta.thumbnail : void 0}
-        />
-      </Head>
-=======
       <HeadMeta
         title={title}
         description={description}
         image={meta.thumbnail ? Get('siteUrl') + meta.thumbnail : void 0}
       />
->>>>>>> upstream/master
       <Header
         title={Get('title')}
         titleColor={Get('titleColor')}
